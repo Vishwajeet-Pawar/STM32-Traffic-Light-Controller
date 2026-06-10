@@ -29,11 +29,15 @@ A clean and professional **Traffic Light Controller** project using **STM32F103C
 
 ## 📸 Screenshots
 ### Proteus Simulation
-![Proteus Circuit](Images/proteus_diagram.png)
-![Traffic Light - Red ON](Images/red_on.png)
-![Traffic Light - Yellow ON](Images/yellow_on.png)
-![Traffic Light - Green ON](Images/green_on.png)
-![IOC File Configuration](Images/IOC_file_-_GPIO_Configuration.png)
+![Red LED ON](Images/Red%20LED.png)
+![Yellow LED ON](Images/Yellow%20LED.png)
+![Green LED ON](Images/Green%20LED.png)
+
+### Code & Configuration
+![GPIO Configuration](Images/IOC%20file%20-%20GPIO%20Configuration.png)
+![while(1) Loop](Images/while(1)%20-%20Code.png)
+![Function Declaration](Images/Function%20Declaration.png)
+![Function Calling](Images/Function%20Calling.png)
 
 ## 🔮 Future Enhancements (Planned)
 - Pedestrian crossing button
