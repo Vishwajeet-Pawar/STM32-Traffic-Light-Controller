@@ -1,32 +1,34 @@
-# STM32-Traffic-Light-Controller
-STM32F103 Traffic Light Controller with Proteus Simulation
+# 🚦 STM32 Traffic Light Controller
 
-A simple but professional Traffic Light Controller project using  STM32F103C6T6  microcontroller. Built for learning and portfolio purposes.
+A clean Traffic Light Controller project using **STM32F103C6T6** microcontroller.
 
- Features
-- Red → Yellow → Green → Yellow sequence
-- Timing: 5s Red, 2s Yellow, 5s Green, 2s Yellow
+## Features
+- Red (5s) → Yellow (2s) → Green (5s) → Yellow (2s) cycle
 - Active-Low LED configuration
-- Fully simulated in Proteus
-- Clean code using STM32 HAL
+- Developed in STM32CubeIDE
+- Proteus Simulation ready
 
- Project Structure
-STM32_Source_Code → Complete STM32CubeIDE project
-Proteus_Simulation → Simulation files
-Images  → Screenshots and circuit diagrams
+## 📁 Project Structure
+- **STM32_Source_Code.zip** → Complete STM32CubeIDE project (download and extract)
+- **Proteus_Simulation/** → Simulation file
+- **Images/** → Project screenshots
 
-Hardware Used
-- STM32F103C6T6A
-- LEDs (Red, Yellow, Green) on PA0, PA1, PA2
-- 220Ω resistors
+## How to Run
 
- How to Run
-1. Open project in STM32CubeIDE
-2. Build and flash to STM32
-3. Or run simulation in Proteus
+1. Download and extract `STM32_Source_Code.zip`
+2. Open the folder in **STM32CubeIDE**
+3. Build the project
+4. Run simulation in Proteus or flash to STM32 board
 
- Future Enhancements
-- Pedestrian crossing button
-- Finite State Machine (FSM)
-- Timer-based timing (no HAL_Delay)
-- UART debugging
+## Hardware
+- PA0 = Red LED
+- PA1 = Yellow LED
+- PA2 = Green LED
+
+## Future Plans
+- Add pedestrian button
+- Use Finite State Machine
+- Timer interrupt based timing
+
+---
+**Embedded Systems Portfolio Project**
