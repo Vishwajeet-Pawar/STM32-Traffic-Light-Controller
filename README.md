@@ -34,7 +34,7 @@ A clean and professional **Traffic Light Controller** project using **STM32F103C
 ![Green LED ON](Images/Green%20LED.png)
 
 ### Code & Configuration
-![GPIO Configuration](Images/IOC%20file%20-%20GPIO%20Configuration.png)
+![GPIO Configuration](Images/IOC%20file.png)
 ![while(1) Loop](Images/while(1)%20-%20Code.png)
 ![Function Declaration](Images/Function%20Declaration.png)
 ![Function Calling](Images/Function%20Calling.png)
